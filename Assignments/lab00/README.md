@@ -150,3 +150,16 @@ A couple of practical points that show up in `add_sharpen`:
 - `ksize` controls how strongly the internal copy is blurred, which in turn controls what counts as "high frequency" detail to be boosted — a larger `ksize` blurs more aggressively, so the mask picks up coarser detail.
 - Because amplifying high-frequency content can push pixel values below 0 or above 255, the result must be clipped back into the valid `[0, 255]` range before casting to `uint8`.
 
+
+
+****The result by Nelofar's practice****
+
+
+
+
+<img width="1854" height="891" alt="Assingment lab00-result" src="https://github.com/user-attachments/assets/b9f7ec0a-2e51-4d79-8d9e-cae64548b010" />
+
+
+
+
+
